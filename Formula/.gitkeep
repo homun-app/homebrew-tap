@@ -1,0 +1,8 @@
+# Placeholder — homun.rb will be populated by CI on first release
+#
+# On v1.0.0 tag push to homun-app/homun-core, the release.yml workflow
+# will render packaging/brew/homun.rb.template into Formula/homun.rb
+# with the actual version, URLs, and SHA256 values, then commit + push
+# to this tap via the HOMEBREW_TAP_PUSH_TOKEN PAT (set up in Phase 5).
+#
+# Until that first release, this .gitkeep keeps the directory tracked.
