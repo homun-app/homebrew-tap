@@ -1,7 +1,7 @@
 #
 # Homebrew formula for Homun — personal AI assistant
 #
-# This file is a TEMPLATE. The release CI pipeline substitutes 1.0.0
+# This file is a TEMPLATE. The release CI pipeline substitutes 1.0.1
 # with the actual tag version and computes SHA256 for the archive URLs
 # before publishing the rendered formula to the homun-app/homebrew-tap repo.
 #
@@ -19,7 +19,7 @@ class Homun < Formula
   desc "Ultra-lightweight personal AI assistant — a digital homunculus"
   homepage "https://homun.app"
   license "PolyForm-Noncommercial-1.0.0"
-  version "1.0.0"
+  version "1.0.1"
 
   # =========================================================================
   # Binary bottle (preferred path — signed + notarized artifacts from CI)
@@ -29,12 +29,12 @@ class Homun < Formula
   # --build-from-source which ignores these URLs.
   on_macos do
     on_arm do
-      url "https://github.com/homun-app/homun/releases/download/v1.0.0/Homun-1.0.0-arm64.dmg"
-      sha256 "b915d612e1fb158dc601b6a969a48203480d501b84aec2ecb3f11748bcc9efcd"
+      url "https://github.com/homun-app/homun/releases/download/v1.0.1/Homun-1.0.1-arm64.dmg"
+      sha256 "e161650341d26e729896a4e546e7b82a25576f7505f328d661a7b3a12d0efb57"
     end
     on_intel do
-      url "https://github.com/homun-app/homun/releases/download/v1.0.0/Homun-1.0.0-x64.dmg"
-      sha256 "daaec1f85a367e6096035285cf5af9600aadde01bd648ffdbb0ae4dd6e3f5429"
+      url "https://github.com/homun-app/homun/releases/download/v1.0.1/Homun-1.0.1-x64.dmg"
+      sha256 "24b81938f05c392e390fecbf20f41df01c2e3d1d1ffea05e9ac3d32da2194cd4"
     end
   end
 
